@@ -4,6 +4,7 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Company from "./components/pages/Company";
 import NewProject from "./components/pages/NewProject";
+import Projects from "./components/pages/Projects";
 // components
 import Container from "./components/layout/Container";
 import Navbar from "./components/layout/Navbar"
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contato" element={<Contact />} />
           <Route path="/empresa" element={<Company />} />
+          <Route path="/projetos" element={<Projects />} />
           <Route path="/novoProjeto" element={<NewProject />} />
         </Routes>
       </Container>
